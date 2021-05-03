@@ -1,0 +1,11 @@
+@import 'variables';
+
+.topLogo {
+  display: flex;
+  justify-content: center;
+  background-color: $white;
+  img {
+    height: 100px;
+    width: auto;
+  }
+}
