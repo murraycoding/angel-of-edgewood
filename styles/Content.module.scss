@@ -1,0 +1,41 @@
+@import 'variables';
+
+.contentSection {
+  display: grid;
+  grid-template-areas: "image title" "image content";
+  gap: 10px;
+  margin: 20px;
+  max-width: 1200px;
+  margin: 15px auto;
+}
+
+.flippedContentSection {
+  display: grid;
+  grid-template-areas: "title image" "content image";
+  gap: 10px;
+  margin: 20px;
+  max-width: 1200px;
+  margin: 15px auto;
+}
+
+.contentSectionTitle {
+  grid-area: title;
+  color: $green;
+  text-align: center;
+}
+
+.contentSectionImage {
+  grid-area: image;
+  background-color: $white;
+  box-shadow: 3px 3px 5px $second-neutral;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contentSectionContent {
+  grid-area: content;
+  text-align: center;
+  margin: 0px;
+}

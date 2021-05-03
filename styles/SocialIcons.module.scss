@@ -1,0 +1,32 @@
+@import 'variables';
+
+.facebook {
+  background-color: $blue;
+  border-radius: 50%;
+  color: $white;
+  border: 2px solid $blue;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background-color: $white;
+    color: $blue;
+    cursor: pointer;
+  }
+}
+
+.instagram {
+  padding: 10px;
+  background-color: $white;
+  border-radius: 50%;
+  color: $blue;
+  border: 2px solid $blue;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background-color: $blue;
+    color: $black;
+    cursor: pointer;
+  }
+}
+
+.buffer {
+  padding: 5px;
+}
